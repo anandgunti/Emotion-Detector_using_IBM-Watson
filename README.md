@@ -59,4 +59,4 @@ python -m test_emotion_detection.py
 ### Conclusion
 By following these steps, we have successfully created and deployed an emotion detection application that can analyze and interpret emotions from text using IBM Watson's powerful NLP capabilities. This project not only demonstrates the application of AI in emotion detection but also highlights the importance of proper development, testing, and deployment practices in creating robust web applications.
 
-**To use the application run the 'server.py' file. **
+#### To use the application run the `server.py`  file. 
