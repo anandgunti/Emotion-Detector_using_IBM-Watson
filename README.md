@@ -24,7 +24,12 @@ To make the output more user-friendly, we format the detected emotions into a re
 
 
 ### Task 4: Package the Application
-We organize our code into modules and create a `setup.py` file for packaging. This allows for easy distribution and installation of our application.
+We organize our code into modules and create a `EmotionDetection.py` file for packaging. This allows for easy distribution and installation of our application.
+
+To use package use the following code
+```bash
+from EmotionDetection.emotion_detection import emotion_detector
+```
 
 
 ### Task 5: Run Unit Tests
@@ -53,3 +58,5 @@ python -m test_emotion_detection.py
 
 ### Conclusion
 By following these steps, we have successfully created and deployed an emotion detection application that can analyze and interpret emotions from text using IBM Watson's powerful NLP capabilities. This project not only demonstrates the application of AI in emotion detection but also highlights the importance of proper development, testing, and deployment practices in creating robust web applications.
+
+**To use the application run the 'server.py' file. **
