@@ -3,6 +3,8 @@
 ## Introduction
 Welcome to the Emotion Detection Application project! This repository showcases a powerful tool built using IBM Watson's Natural Language Processing (NLP) service. Our application goes beyond simple sentiment analysis by identifying specific emotions such as joy, sadness, anger, and more from textual inputs. This capability can be highly beneficial for AI-based recommendation systems, automated chatbots, and various other applications.
 
+The application is developed using **Flask**, making it accessible as a web service. We have implemented **unit tests** to ensure reliability, followed PEP 8 coding guidelines (checked using the **Pylint library**), and incorporated robust error handling
+
 ![Emotion](https://github.com/anandgunti/Emotion-Detector/assets/25959661/63f0e362-a83f-4dff-bcf3-40d73243e43e)
 
 
