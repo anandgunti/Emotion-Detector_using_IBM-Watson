@@ -14,7 +14,11 @@ We start by cloning the project repository to our local machine using Git. This 
 
 ### Task 2: Create the Emotion Detection Function
 Using the Watson NLP library, we create a function that analyzes emotions in given text. By authenticating with the Watson NLP API, we ensure our application can leverage the powerful AI capabilities provided by IBM.
-
+```bash
+URL: 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
+Headers: {"grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"}
+Input json: { "raw_document": { "text": text_to_analyse } }
+```
 ### Task 3: Format the Output
 To make the output more user-friendly, we format the detected emotions into a readable format. This ensures that the results are easily understandable.
 
